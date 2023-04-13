@@ -1,0 +1,35 @@
+.container-article {
+    padding-top: 120px;
+}
+.article-header {
+    height: 40vh;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ul-header-article li {
+    display: inline-block;
+    padding: 11px 16px;
+    position: relative;
+    color: #818181;
+}
+.ul-header-article li:first-child:before {
+    content: "";
+    background-color: #c1c1c1;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: -7px;
+    border-radius: 50%;
+    top: 19px;
+}
+.container-article h2 {
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.article-caption p {
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #000;
+}

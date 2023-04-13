@@ -1,0 +1,30 @@
+/* @import url("/public/css/about.css");
+@import url("/public/css/animated.css");
+@import url("/public/css/articledetails.css");
+@import url("/public/css/bootstrap.min.css");
+@import url("/public/css/bootstrap.rtl.min.css");
+@import url("/public/css/boxicons.min.css");
+@import url("/public/css/contact.css");
+@import url("/public/css/faq.css");
+@import url("/public/css/fontawesome.min.css");
+@import url("/public/css/index.css");
+@import url("/public/css/main.css");
+@import url("/public/css/order.css");
+@import url("/public/css/owl.css"); */
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+/* a {
+  color: inherit;
+  text-decoration: none;
+} */
+
+* {
+  box-sizing: border-box;
+}

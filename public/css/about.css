@@ -1,0 +1,24 @@
+.container-about {
+    padding-top: 160px;
+    text-align: center;
+}
+.img-about {
+    border-radius: 20px;
+    box-shadow: 0 26px 29px -18px grey;
+    transition: all ease-in-out 0.3s;
+}
+.img-about:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 31px 38px -16px grey;
+}
+.p-about {
+    text-align: justify;
+    color: #747474;
+}
+.p-about.cplus {
+    display: flex;
+    position: relative;
+    padding-right: 50px;
+    padding-inline-start: 15px;
+    white-space: nowrap;
+}

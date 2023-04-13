@@ -1,0 +1,97 @@
+.faq {
+    padding-top: 130px;
+    position: relative;
+  }
+
+
+
+  /* #faq{
+    display: flex;
+    position: relative;
+  } */
+
+  .faq  .section-heading p {
+    margin-top: 10px;
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+  
+  .faq .container-fluid {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  
+  .faq .section-heading {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .faq-svg {
+    position: absolute;
+    height: 800px;
+    right: -10px;
+    width: auto;
+    top: 0;
+    opacity: .5;
+  }
+  .accordion-item {
+    position: relative;
+    border-radius: 18px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .accordion-button {
+    color: #4c4c4c;
+    background-color: #FFF;
+    font-size: 1.1rem;
+    box-shadow: 0 0 13px #c9c9c9;
+    border-radius: 18px;
+  }
+.accordion-item:first-of-type {
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+  background: linear-gradient(200deg, #5a36c0 13.57%, #1d91fc 98.38%);
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+}
+.accordion-button:focus {
+  outline: 0;
+  box-shadow: 0 0 13px #c9c9c9;
+}
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: transparent;
+  box-shadow: inset 0 -1px 0 rgb(255 255 255 / 13%);
+}
+.accordion-body p {
+  color: #fff;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url('../images/icons/arrow.png');
+}
+.accordion-button::after {
+  background-image: url('../images/icons/arrow2.png');
+  position: absolute;
+  left: 25px;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.accordion .accordion-item::nth-child(4n+1) {
+  background: linear-gradient(200deg, #5a36c0 13.57%, #1d91fc 98.38%);
+}
+.accordion .accordion-item:nth-child(2) {
+  background: linear-gradient(200deg, #e94f66 13.57%, #e94f66 98.38%);
+}
+.accordion .accordion-item:nth-child(3) {
+  background: linear-gradient(200deg, #466fab 13.57%, #65bb76 98.38%);
+}
+.accordion .accordion-item:nth-child(4) {
+  background: linear-gradient(200deg, #9813a1 13.57%, #c215d1 98.38%);
+}
+.accordion-item:last-of-type {
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
